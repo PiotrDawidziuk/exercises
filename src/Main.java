@@ -8,5 +8,15 @@ public class Main {
         for (String text: tabela) {
             System.out.println(text);
         }
+
+        String s = "text";
+
+        System.out.println(s);
+
+        s = "text2";
+
+        System.out.println(s);
+        
+
     }
 }
