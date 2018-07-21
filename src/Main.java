@@ -33,6 +33,8 @@ public class Main {
 //
         myList.stream().filter(s -> s.startsWith("a")).sorted().forEach(System.out::println);
 
+        System.out.println("Lista ma "+myList.stream().count()+" pozycji");
+
         Arrays.stream(tabela).forEach(System.out::print);
 
 
