@@ -22,7 +22,7 @@ public class Main {
 
 
         List<String> myList =
-                Arrays.asList("a1", "a2", "b1", "c2", "c1");
+                Arrays.asList("a1", "a2", "a4", "b1", "c2", "c1", "a3");
 
 //        myList
 //                .stream()
@@ -31,7 +31,9 @@ public class Main {
 //                .sorted()
 //                .forEach(System.out::println);
 //
-        myList.stream().forEach(System.out::println);
+        myList.stream().filter(s -> s.startsWith("a")).sorted().forEach(System.out::println);
+
+        Arrays.stream(tabela).forEach(System.out::print);
 
 
 
