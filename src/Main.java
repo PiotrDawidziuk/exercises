@@ -37,6 +37,8 @@ public class Main {
 
         Arrays.stream(tabela).forEach(System.out::print);
 
+        List <Integer> list2 = Arrays.asList(12,34,12,12,45,56,34,56,45,123,1);
+        list2.stream().sorted().forEach(System.out::println );
 
 
     }
